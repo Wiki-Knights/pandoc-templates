@@ -36,7 +36,9 @@ $endif$
   <![endif]-->
 </head>
 <body>
-<img src="logo-horizontal.png" id="logo">
+<div id="logo-wrapper">
+<img src="logo-horizontal.svg" id="logo">
+</div>
 $for(include-before)$
 $include-before$
 $endfor$
