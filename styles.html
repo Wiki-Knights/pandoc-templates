@@ -26,7 +26,9 @@ html {
 $if(linestretch)$
   line-height: $linestretch$;
 $endif$
-$if(mainfont)$
+$if(mainfont-html)$
+  font-family: $mainfont-html$;
+$elseif(mainfont)$
   font-family: $mainfont$;
 $endif$
 $if(fontsize)$
